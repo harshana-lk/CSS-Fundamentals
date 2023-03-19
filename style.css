@@ -5,8 +5,14 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
 }
 
+h1,
+h2,
+h3 {
+  color: #1098ab;
+}
 h1 {
   font-size: 26px;
   font-style: italic;
@@ -61,4 +67,16 @@ li {
 
 .related-post-ul {
   list-style: none;
+}
+
+#main-header {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ab;
+  border-bottom: 5px solid #1098ab;
+  border-radius: 25px;
 }
